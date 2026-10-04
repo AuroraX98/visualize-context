@@ -1,0 +1,46 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "visualize-context",
+  "version": "1.0.0",
+  "description": "AI visualization skill for ChatGPT and Codex: automatically choose and tailor diagrams, flowcharts, mind maps, concept maps, decision trees, timelines, and visual comparisons. Works best with built-in visualize; supports static fallback.",
+  "author": {
+    "name": "AuroraX98",
+    "url": "https://github.com/AuroraX98"
+  },
+  "homepage": "https://github.com/AuroraX98/visualize-context",
+  "repository": "https://github.com/AuroraX98/visualize-context",
+  "license": "MIT",
+  "keywords": [
+    "ai-visualization",
+    "chatgpt",
+    "codex",
+    "agent-skills",
+    "visual-thinking",
+    "diagrams",
+    "flowcharts",
+    "mind-maps",
+    "concept-maps",
+    "decision-trees",
+    "timelines",
+    "mermaid",
+    "learning",
+    "project-planning",
+    "source-fidelity"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Visualize Context",
+        "shortDescription": "AI diagrams tailored to your question and source",
+        "longDescription": "Choose the clearest visual for your question and source material. Visualize Context supports 20 formats for learning, visual thinking, comparisons, decisions, and project planning, with labeled relationships, source fidelity, uncertainty, and readable mobile layouts. Works best alongside the enabled built-in visualize skill in ChatGPT for inline rendering and useful interactions. If that skill is disabled or unavailable, selection and tailoring remain active with static Mermaid diagrams, Markdown tables, or prose supported by the current surface. The built-in skill and its runtime are not included.",
+        "developerName": "AuroraX98",
+        "category": "Productivity",
+        "websiteURL": "https://github.com/AuroraX98/visualize-context",
+        "defaultPrompt": [
+          "Use Visualize Context to explain the relationships in this material.",
+          "Use Visualize Context to choose the clearest visual for this comparison."
+        ]
+      }
+    }
+  }
+}

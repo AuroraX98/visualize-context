@@ -1,0 +1,9 @@
+interface:
+  display_name: Visualize Context
+  short_description: AI diagrams and visual explanations tailored to context
+  default_prompt: Use $visualize-context to choose and tailor the clearest visual
+    for this material; use the enabled built-in visualize skill when available.
+  icon_small: ./assets/icon.svg
+  icon_large: ./assets/icon.svg
+policy:
+  allow_implicit_invocation: true
