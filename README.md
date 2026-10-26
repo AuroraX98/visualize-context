@@ -21,30 +21,30 @@ Without that renderer, the skill can fall back to supported static Mermaid diagr
 
 The format guide covers all 22 of these forms. They are selection and design instructions, not 22 bundled renderers.
 
-| Format | Useful for |
-| --- | --- |
-| Flowchart | Steps, procedures, and process branches |
-| Mind map | Brainstorming themes around a topic |
-| Concept map | Labeled relationships between ideas |
-| Decision tree | Choices under branching conditions |
-| Relationship map | Associations among people, ideas, or entities |
-| System diagram | Parts, boundaries, inputs, and outputs |
-| Cycle diagram | Processes that repeat |
-| Feedback loop | Effects that influence an earlier part of a process |
-| Cause-and-effect diagram | Supported causes and possible contributing factors |
-| Sequence diagram | Ordered interactions among participants |
-| Timeline | Events, development, and milestones |
-| Hierarchy diagram | Categories, containment, and levels |
-| Venn diagram | Shared and distinct set membership |
-| Comparison matrix | Options evaluated against common criteria |
-| Quadrant chart | Two meaningful dimensions |
-| Journey map | An experience across stages |
-| Storyboard | An explanation through a concrete scenario |
-| Gantt chart | Task timing, overlap, and dependencies |
-| Sankey diagram | Quantified flows |
-| Syntax anatomy diagram / labeled code breakdown | What each part of a short code line means |
-| Annotated equation/expression | What mathematical symbols, terms, and groups mean |
-| Funnel diagram | Items moving through narrowing stages |
+| Format | Useful for | Example use at work or study |
+| --- | --- | --- |
+| Flowchart | Steps, procedures, and process branches | Map an expense claim from submission to approval, including missing-receipt branches. |
+| Mind map | Brainstorming themes around a topic | Brainstorm a product launch around audience, message, channels, and launch activities. |
+| Concept map | Labeled relationships between ideas | Connect concepts from a research paper with labeled links such as “depends on” and “measures.” |
+| Decision tree | Choices under branching conditions | Choose an issue-triage route based on severity, affected users, and available workarounds. |
+| Relationship map | Associations among people, ideas, or entities | Map which teams collaborate with which vendors, labeling each relationship. |
+| System diagram | Parts, boundaries, inputs, and outputs | Show how a web app’s browser, API, and database exchange information. |
+| Cycle diagram | Processes that repeat | Show a weekly publishing cycle: plan, draft, review, publish, then plan again. |
+| Feedback loop | Effects that influence an earlier part of a process | Explain how a thermostat uses measured temperature to adjust heating and change temperature. |
+| Cause-and-effect diagram | Supported causes and possible contributing factors | Organize evidence and hypotheses for late deliveries, clearly marking unconfirmed factors. |
+| Sequence diagram | Ordered interactions among participants | Trace login messages between a user, app, and identity provider in their actual order. |
+| Timeline | Events, development, and milestones | Place a project’s verified kickoff, review, and launch dates on one timeline. |
+| Hierarchy diagram | Categories, containment, and levels | Organize a product catalog into categories, subcategories, and products. |
+| Venn diagram | Shared and distinct set membership | Show which required skills are shared by two job roles and which are unique. |
+| Comparison matrix | Options evaluated against common criteria | Compare three software vendors using supplied price, privacy, and integration criteria. |
+| Quadrant chart | Two meaningful dimensions | Place proposed features on impact-versus-effort axes using the team’s qualitative estimates. |
+| Journey map | An experience across stages | Map a new customer’s signup stages using observed actions, obstacles, and stated feedback. |
+| Storyboard | An explanation through a concrete scenario | Explain an illustrative customer-support scenario through four scenes, from issue to resolution. |
+| Gantt chart | Task timing, overlap, and dependencies | Lay out design, development, and testing with supplied dates and dependencies; mark estimates. |
+| Sankey diagram | Quantified flows | Show how a supplied budget splits across departments and projects, with widths matching amounts. |
+| Syntax anatomy diagram / labeled code breakdown | What each part of a short code line means | Label the function name, parentheses, and string argument in `print("Hello")`. |
+| Annotated equation/expression | What mathematical symbols, terms, and groups mean | Label revenue, costs, subtraction, and profit in `revenue − costs = profit`. |
+| Funnel diagram | Items moving through narrowing stages | Show supplied counts of visitors, signups, and paying customers at successive conversion stages. |
 
 When requested and supported, a small simulation or parameter control can help explore how a supplied input changes an outcome. It must use a supported relationship or be clearly labeled illustrative.
 
